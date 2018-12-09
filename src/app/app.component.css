@@ -1,0 +1,22 @@
+.square {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin: .5em;
+}
+
+.row:nth-child(even) .square:nth-child(even) {
+  background-color: brown;
+}
+
+.row:nth-child(even) .square:nth-child(odd) {
+  background-color: black;
+}
+
+.row:nth-child(odd) .square:nth-child(odd) {
+  background-color: brown;
+}
+
+.row:nth-child(odd) .square:nth-child(even) {
+  background-color: black;
+}
